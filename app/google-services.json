@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "36949402907",
+    "firebase_url": "https://juguemos-7d887.firebaseio.com",
+    "project_id": "juguemos-7d887",
+    "storage_bucket": "juguemos-7d887.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36949402907:android:fb615edbee2127a7",
+        "android_client_info": {
+          "package_name": "com.juguemos.juguemos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36949402907-ndgtmf08oi2e0ki6frc5lt6djo12c1l8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgJJRKkOTZtXPUxlkArP5BhjRpX5xibXE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

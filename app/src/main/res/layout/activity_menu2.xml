@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:layout_marginBottom="0dp"
+    android:layout_marginEnd="0dp"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp"
+    android:layout_marginStart="0dp"
+    android:layout_marginTop="0dp"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.juguemos.juguemos.Menu2">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-6dp"></include>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginRight="-1dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="54dp"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <AbsoluteLayout
+        android:id="@+id/absoluteLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="359dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@android:color/transparent"
+        android:elevation="0dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar"
+        android:layout_marginTop="150dp"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/giros"
+            android:layout_width="89dp"
+            android:layout_height="112dp"
+            android:layout_alignBottom="@+id/chance"
+            android:layout_alignLeft="@+id/ultimos"
+            android:layout_alignStart="@+id/ultimos"
+            android:layout_x="171dp"
+            android:layout_y="13dp"
+            android:background="@drawable/giros"
+            android:onClick="ir_giros" />
+
+        <Button
+            android:id="@+id/recaudos"
+            android:layout_width="89dp"
+            android:layout_height="112dp"
+            android:layout_alignBaseline="@+id/loteria"
+            android:layout_alignBottom="@+id/loteria"
+            android:layout_alignLeft="@+id/giros"
+            android:layout_alignStart="@+id/giros"
+            android:layout_x="171dp"
+            android:layout_y="130dp"
+            android:background="@drawable/tupremio"
+            android:onClick="ir_premio" />
+
+        <Button
+            android:id="@+id/Soat"
+            android:layout_width="89dp"
+            android:layout_height="112dp"
+            android:layout_alignLeft="@+id/recaudos"
+            android:layout_alignStart="@+id/recaudos"
+            android:layout_alignTop="@+id/recargas"
+            android:layout_x="171dp"
+            android:layout_y="247dp"
+            android:background="@drawable/soat"
+            android:onClick="ir_soat" />
+
+        <Button
+            android:id="@+id/recargas"
+            android:layout_width="89dp"
+            android:layout_height="112dp"
+            android:layout_alignLeft="@+id/loteria"
+            android:layout_alignStart="@+id/loteria"
+            android:layout_below="@+id/loteria"
+            android:layout_marginTop="57dp"
+            android:layout_x="31dp"
+            android:layout_y="246dp"
+            android:background="@drawable/resultados"
+            android:onClick="ir_resultados" />
+
+        <Button
+            android:id="@+id/loteria"
+            android:layout_width="99dp"
+            android:layout_height="112dp"
+            android:layout_alignLeft="@+id/chance"
+            android:layout_alignStart="@+id/chance"
+            android:layout_below="@+id/chance"
+            android:layout_marginTop="48dp"
+            android:layout_x="27dp"
+            android:layout_y="129dp"
+            android:background="@drawable/numerosuerte"
+            android:onClick="ir_numerosuerte" />
+
+        <Button
+            android:id="@+id/chance"
+            android:layout_width="92dp"
+            android:layout_height="112dp"
+            android:layout_alignEnd="@+id/apuesta"
+            android:layout_alignRight="@+id/apuesta"
+            android:layout_below="@+id/apuesta"
+            android:layout_marginTop="42dp"
+            android:layout_x="30dp"
+            android:layout_y="11dp"
+            android:background="@drawable/puntosdeservicio"
+            android:onClick="ir_puntos" />
+
+    </AbsoluteLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_inicio" android:title="Inicio"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_chance" android:title="Chance"
+        android:orderInCategory="101" app:showAsAction="never" />
+    <item android:id="@+id/action_doblechance" android:title="Doble Chance"
+        android:orderInCategory="102" app:showAsAction="never" />
+    <item android:id="@+id/action_astro" android:title="Astro"
+        android:orderInCategory="103" app:showAsAction="never" />
+    <item android:id="@+id/action_fisica" android:title="Loteria Fisica"
+        android:orderInCategory="104" app:showAsAction="never" />
+    <item android:id="@+id/action_virtual" android:title="Loteria Virtual"
+        android:orderInCategory="105" app:showAsAction="never" />
+    <item android:id="@+id/action_recargas" android:title="Recargas"
+        android:orderInCategory="105" app:showAsAction="never" />
+    <item android:id="@+id/action_pagosrecaudos" android:title="Pagos y Recaudos"
+        android:orderInCategory="106" app:showAsAction="never" />
+</menu>
